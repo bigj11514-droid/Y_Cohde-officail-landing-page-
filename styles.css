@@ -520,7 +520,10 @@ a {
     padding: 28px;
     border-radius: 28px;
   }
-
+  .testimonial-grid{
+    display: flex;
+    flex-direction: column;
+  }
   .hero-copy h1 {
     font-size: 2.7rem;
   }
