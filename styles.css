@@ -512,7 +512,10 @@ a {
     width: 100%;
     justify-content: space-between;
   }
-
+  .section-heading{
+    display: flex;
+    flex-direction: column;
+  }
   .hero {
     padding: 28px;
     border-radius: 28px;
