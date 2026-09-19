@@ -177,6 +177,15 @@ a {
   max-width: 760px;
 }
 
+.single-card .hero-content {
+  width: 100%;
+  max-width: none;
+}
+
+.single-card .hero-copy {
+  max-width: 560px;
+}
+
 .hero-copy {
   max-width: 540px;
   align-self: center;
@@ -273,6 +282,10 @@ a {
   display: grid;
   place-items: center;
   padding: 34px 0 0 34px;
+}
+
+.single-card .hero-visual {
+  min-height: 440px;
 }
 
 .hero-visual::before {
@@ -626,6 +639,10 @@ a {
   .hero-visual {
     min-height: 290px;
     padding: 28px 0 0 18px;
+  }
+
+  .single-card .hero-visual {
+    min-height: 290px;
   }
 
   .hero-visual::before {
