@@ -1,4 +1,3 @@
-const heroCard = document.querySelector('.hero-card');
 const serviceCards = document.querySelectorAll('.service-card');
 
 function handleOrbit(event, target, strength = 16) {
@@ -12,11 +11,6 @@ function handleOrbit(event, target, strength = 16) {
 function resetOrbit(target) {
   target.style.setProperty('--rotate-x', '0deg');
   target.style.setProperty('--rotate-y', '0deg');
-}
-
-if (heroCard) {
-  heroCard.addEventListener('pointermove', event => handleOrbit(event, heroCard, 18));
-  heroCard.addEventListener('pointerleave', () => resetOrbit(heroCard));
 }
 
 serviceCards.forEach(card => {
